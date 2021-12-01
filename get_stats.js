@@ -425,7 +425,7 @@ function completion_movie(user_movie_finishing_percent, single) {
             if(!single) {
                 html += "<b>Your average movie finishing percentage was " + percent[0] + "%</b>";
             } else {
-                html += "<b>Your saw " + percent[0] + "%</b>";
+                html += "<b>You saw " + percent[0] + "%</b>";
             }
             if(percent[0] > 89) {
                 html += '<br><br><img src="assets/img/champion.svg" style="margin: auto; display: block; width: 15em;">';
